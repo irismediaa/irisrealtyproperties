@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Realty | Luxury Real Estate</title>
+    <meta name="description" content="Discover premium residential and commercial properties crafted for modern lifestyles with Iris Realty.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader-logo">Iris Realty</div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo" data-target="home">
+                <i class="fa-solid fa-gem"></i> Iris Realty
+            </a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link active" data-target="home">Home</a></li>
+                    <li><a href="#" class="nav-link" data-target="about">About Us</a></li>
+                    <li><a href="#" class="nav-link" data-target="projects">Projects</a></li>
+                    <li><a href="#" class="nav-link" data-target="services">Services</a></li>
+                    <li><a href="#" class="nav-link" data-target="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area (SPA views) -->
+    <main id="main-content">
+        
+        <!-- HOME PAGE -->
+        <section id="home" class="view-section active-view">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-overlay"></div>
+                <div class="container hero-content">
+                    <h1 class="fade-up">Luxury Living Begins With <span class="text-gold">Iris Realty</span></h1>
+                    <p class="fade-up delay-1">Discover premium residential and commercial properties crafted for modern lifestyles.</p>
+                    <div class="hero-btns fade-up delay-2">
+                        <a href="#" class="btn btn-primary" data-target="projects">Explore Projects</a>
+                        <a href="#" class="btn btn-outline" data-target="contact">Book Consultation</a>
+                    </div>
+                    
+                    <div class="floating-stats fade-in delay-3">
+                        <div class="stat-card glass-card">
+                            <h3 class="counter" data-target="150">0</h3><span>+</span>
+                            <p>Luxury Properties</p>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <h3 class="counter" data-target="25">0</h3><span>+</span>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <h3 class="counter" data-target="98">0</h3><span>%</span>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Services -->
+            <section class="featured-services section-padding">
+                <div class="container">
+                    <div class="section-title text-center reveal">
+                        <span class="subtitle">What We Offer</span>
+                        <h2>Premium Services</h2>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card reveal">
+                            <i class="fa-solid fa-house-chimney"></i>
+                            <h3>Luxury Sales</h3>
+                            <p>Exclusive residential properties curated for the elite.</p>
+                        </div>
+                        <div class="service-card reveal delay-1">
+                            <i class="fa-solid fa-city"></i>
+                            <h3>Commercial Spaces</h3>
+                            <p>Prime locations for modern businesses and enterprises.</p>
+                        </div>
+                        <div class="service-card reveal delay-2">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>Investment Advisory</h3>
+                            <p>Expert guidance for high-yield property investments.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Preview -->
+            <section class="about-preview section-padding bg-darker">
+                <div class="container">
+                    <div class="about-split reveal">
+                        <div class="about-img">
+                            <div class="img-wrapper">
+                                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Mansion">
+                                <div class="experience-badge glass-card">
+                                    <span class="years">25</span>
+                                    <span class="text">Years of<br>Excellence</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-text">
+                            <span class="subtitle">About Iris Realty</span>
+                            <h2>Redefining Modern Luxury Living</h2>
+                            <div class="divider left"></div>
+                            <p>We are a premium real estate company built on trust, transparency, and a commitment to delivering modern living experiences. With decades of expertise, we curate premium investments that stand the test of time.</p>
+                            <ul class="check-list">
+                                <li><i class="fa-solid fa-check text-gold"></i> Trusted by high-net-worth individuals</li>
+                                <li><i class="fa-solid fa-check text-gold"></i> Exclusive access to off-market properties</li>
+                                <li><i class="fa-solid fa-check text-gold"></i> Comprehensive legal & financial advisory</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline mt-3" data-target="about">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Properties -->
+            <section class="featured-properties section-padding">
+                <div class="container">
+                    <div class="section-title text-center reveal">
+                        <span class="subtitle">Exclusive Listings</span>
+                        <h2>Featured Properties</h2>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="properties-grid">
+                        <!-- Property 1 -->
+                        <div class="property-card glass-card reveal">
+                            <div class="property-img">
+                                <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sky Heights Residences">
+                                <span class="badge">Featured</span>
+                            </div>
+                            <div class="property-content">
+                                <h3>Sky Heights Residences</h3>
+                                <p class="location"><i class="fa-solid fa-location-dot"></i> Andheri West, Mumbai, MH</p>
+                                <div class="property-details">
+                                    <span><i class="fa-solid fa-bed"></i> 4 Beds</span>
+                                    <span><i class="fa-solid fa-bath"></i> 4 Baths</span>
+                                    <span><i class="fa-solid fa-vector-square"></i> 3,500 sqft</span>
+                                </div>
+                                <div class="property-footer">
+                                    <h4 class="price">₹20.5 Cr</h4>
+                                    <a href="#" class="btn-text" data-target="contact">Enquire <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Property 2 -->
+                        <div class="property-card glass-card reveal delay-1">
+                            <div class="property-img">
+                                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Iris Elite Towers">
+                                <span class="badge">New</span>
+                            </div>
+                            <div class="property-content">
+                                <h3>Iris Elite Towers</h3>
+                                <p class="location"><i class="fa-solid fa-location-dot"></i> Bandra Kurla Complex, Mumbai, MH</p>
+                                <div class="property-details">
+                                    <span><i class="fa-solid fa-bed"></i> 3 Beds</span>
+                                    <span><i class="fa-solid fa-bath"></i> 3 Baths</span>
+                                    <span><i class="fa-solid fa-vector-square"></i> 2,800 sqft</span>
+                                </div>
+                                <div class="property-footer">
+                                    <h4 class="price">₹15 Cr</h4>
+                                    <a href="#" class="btn-text" data-target="contact">Enquire <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Property 3 -->
+                        <div class="property-card glass-card reveal delay-2">
+                            <div class="property-img">
+                                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Emerald Villas">
+                                <span class="badge">Villa</span>
+                            </div>
+                            <div class="property-content">
+                                <h3>Emerald Villas</h3>
+                                <p class="location"><i class="fa-solid fa-location-dot"></i> Koregaon Park, Pune, MH</p>
+                                <div class="property-details">
+                                    <span><i class="fa-solid fa-bed"></i> 6 Beds</span>
+                                    <span><i class="fa-solid fa-bath"></i> 7 Baths</span>
+                                    <span><i class="fa-solid fa-vector-square"></i> 8,500 sqft</span>
+                                </div>
+                                <div class="property-footer">
+                                    <h4 class="price">₹75 Cr</h4>
+                                    <a href="#" class="btn-text" data-target="contact">Enquire <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4 reveal">
+                        <a href="#" class="btn btn-primary" data-target="projects">View All Properties</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Amenities -->
+            <section class="amenities section-padding bg-darker">
+                <div class="container">
+                    <div class="section-title text-center reveal">
+                        <span class="subtitle">World-Class Lifestyle</span>
+                        <h2>Premium Amenities</h2>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="amenities-grid">
+                        <div class="amenity-item glass-card reveal"><i class="fa-solid fa-water-ladder"></i> <span>Swimming Pool</span></div>
+                        <div class="amenity-item glass-card reveal delay-1"><i class="fa-solid fa-martini-glass"></i> <span>Club House</span></div>
+                        <div class="amenity-item glass-card reveal delay-2"><i class="fa-solid fa-shield-halved"></i> <span>Smart Security</span></div>
+                        <div class="amenity-item glass-card reveal delay-3"><i class="fa-solid fa-dumbbell"></i> <span>Gymnasium</span></div>
+                        <div class="amenity-item glass-card reveal"><i class="fa-solid fa-leaf"></i> <span>Landscaped Gardens</span></div>
+                        <div class="amenity-item glass-card reveal delay-1"><i class="fa-solid fa-car"></i> <span>Valet Parking</span></div>
+                        <div class="amenity-item glass-card reveal delay-2"><i class="fa-solid fa-child-reaching"></i> <span>Kids Play Area</span></div>
+                        <div class="amenity-item glass-card reveal delay-3"><i class="fa-solid fa-wine-glass"></i> <span>Rooftop Lounge</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials section-padding">
+                <div class="container">
+                    <div class="section-title text-center reveal">
+                        <span class="subtitle">Client Success</span>
+                        <h2>What Our Clients Say</h2>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="testimonial-slider reveal">
+                        <div class="testimonial-card glass-card">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">"Iris Realty transformed our home buying experience. The attention to detail and level of service was unmatched. Truly a luxury experience from start to finish."</p>
+                            <div class="client-info">
+                                <div class="client-avatar">
+                                    <img src="https://i.pravatar.cc/100?img=1" alt="Client">
+                                </div>
+                                <div class="client-details">
+                                    <h4>James Arthur</h4>
+                                    <span>Investor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ABOUT US PAGE -->
+        <section id="about" class="view-section">
+            <div class="page-header">
+                <div class="container">
+                    <h1>About Us</h1>
+                    <p>The standard of modern luxury real estate.</p>
+                </div>
+            </div>
+            <section class="about-content section-padding">
+                <div class="container">
+                    <div class="about-split mb-5 reveal">
+                        <div class="about-text">
+                            <h2>A Legacy of Luxury</h2>
+                            <div class="divider left"></div>
+                            <p>Iris Realty was founded with a singular vision: to redefine luxury living and commercial investments. We believe that real estate is not just about transactions; it's about crafting legacies, securing futures, and enhancing lifestyles.</p>
+                            <p>Our commitment to transparency, elite service, and uncompromising quality has made us the trusted partner for discerning clients worldwide.</p>
+                        </div>
+                        <div class="about-img">
+                            <div class="img-wrapper glass-card p-2">
+                                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Team">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="values-grid pt-5 mt-5">
+                        <div class="value-card glass-card reveal">
+                            <i class="fa-solid fa-gem text-gold fa-2x mb-3"></i>
+                            <h3>Premium Quality</h3>
+                            <p>We source only the finest properties featuring exquisite architecture and prime locations.</p>
+                        </div>
+                        <div class="value-card glass-card reveal delay-1">
+                            <i class="fa-solid fa-handshake text-gold fa-2x mb-3"></i>
+                            <h3>Transparency</h3>
+                            <p>Absolute clarity in every transaction, ensuring our clients feel secure and informed.</p>
+                        </div>
+                        <div class="value-card glass-card reveal delay-2">
+                            <i class="fa-solid fa-leaf text-gold fa-2x mb-3"></i>
+                            <h3>Modern Living</h3>
+                            <p>Pioneering the integration of smart home technology and sustainable luxury.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- PROJECTS PAGE -->
+        <section id="projects" class="view-section">
+            <div class="page-header">
+                <div class="container">
+                    <h1>Our Projects</h1>
+                    <p>Explore our exclusive portfolio of premium properties.</p>
+                </div>
+            </div>
+            <section class="projects-content section-padding">
+                <div class="container">
+                    <!-- Filters -->
+                    <div class="filter-container reveal">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="residential">Residential</button>
+                        <button class="filter-btn" data-filter="commercial">Commercial</button>
+                        <button class="filter-btn" data-filter="villas">Villas</button>
+                        <button class="filter-btn" data-filter="apartments">Apartments</button>
+                    </div>
+
+                    <!-- Projects Grid -->
+                    <div class="properties-grid" id="project-grid">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- SERVICES PAGE -->
+        <section id="services" class="view-section">
+            <div class="page-header">
+                <div class="container">
+                    <h1>Our Services</h1>
+                    <p>Bespoke real estate solutions for discerning clients.</p>
+                </div>
+            </div>
+            <section class="services-content section-padding">
+                <div class="container">
+                    <div class="services-full-grid">
+                        <div class="service-detail-card glass-card reveal">
+                            <div class="icon-circle"><i class="fa-solid fa-key"></i></div>
+                            <h3>Buying Properties</h3>
+                            <p>End-to-end assistance in finding and acquiring your dream luxury home. We handle negotiations, legalities, and seamless handovers.</p>
+                        </div>
+                        <div class="service-detail-card glass-card reveal delay-1">
+                            <div class="icon-circle"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                            <h3>Selling Properties</h3>
+                            <p>Strategic marketing and an extensive network to ensure your premium property is sold at maximum value.</p>
+                        </div>
+                        <div class="service-detail-card glass-card reveal delay-2">
+                            <div class="icon-circle"><i class="fa-solid fa-comments"></i></div>
+                            <h3>Real Estate Consultation</h3>
+                            <p>Expert market analysis and personalized advice to align your real estate goals with current market trends.</p>
+                        </div>
+                        <div class="service-detail-card glass-card reveal">
+                            <div class="icon-circle"><i class="fa-solid fa-chart-pie"></i></div>
+                            <h3>Investment Planning</h3>
+                            <p>Curated high-ROI opportunities in residential and commercial sectors to build your wealth portfolio.</p>
+                        </div>
+                        <div class="service-detail-card glass-card reveal delay-1">
+                            <div class="icon-circle"><i class="fa-solid fa-building"></i></div>
+                            <h3>Commercial Leasing</h3>
+                            <p>Premium office spaces, retail outlets, and commercial hubs for modern businesses.</p>
+                        </div>
+                        <div class="service-detail-card glass-card reveal delay-2">
+                            <div class="icon-circle"><i class="fa-solid fa-star"></i></div>
+                            <h3>Luxury Property Advisory</h3>
+                            <p>Exclusive advisory for ultra-luxury off-market properties, penthouses, and bespoke estates.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- CONTACT US PAGE -->
+        <section id="contact" class="view-section">
+            <div class="page-header">
+                <div class="container">
+                    <h1>Contact Us</h1>
+                    <p>Connect with our experts to start your luxury journey.</p>
+                </div>
+            </div>
+            <section class="contact-content section-padding">
+                <div class="container">
+                    <div class="contact-wrapper">
+                        <!-- Contact Info -->
+                        <div class="contact-info reveal">
+                            <h2>Get in Touch</h2>
+                            <p class="mb-4">Our dedicated team is available to assist you with all your real estate inquiries.</p>
+                            
+                            <div class="info-item">
+                                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h4>Corporate Office</h4>
+                                    <p>Manohar Nagar, Near Indryani College,<br>Talegaon Dabhade, Maharashtra 410507</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:+919146566155">+91 9146566155</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="icon"><i class="fa-envelope fa-solid"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:info@floretresidency.com">info@floretresidency.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="map-placeholder mt-4 glass-card">
+                                <div class="map-inner">
+                                    <i class="fa-solid fa-map-location-dot fa-3x text-gold"></i>
+                                    <p class="mt-2">Google Maps Integration Area</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="contact-form-container glass-card reveal delay-1">
+                            <h3>Send a Message</h3>
+                            <form id="contactForm" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="+1 234 567 8900">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="4" required placeholder="How can we help you?"></textarea>
+                                </div>
+                                <div class="form-group checkbox-group">
+                                    <input type="checkbox" id="smsConsent" name="smsConsent" required>
+                                    <label for="smsConsent">I hereby authorize to receive SMS / Promotional SMS / Transactional SMS</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 mt-3">Submit Inquiry</button>
+                            </form>
+                            <div id="formStatus" class="form-status"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- TERMS PAGE -->
+        <section id="terms" class="view-section">
+            <div class="page-header mini">
+                <div class="container">
+                    <h1>Terms & Conditions</h1>
+                </div>
+            </div>
+            <section class="legal-content section-padding">
+                <div class="container">
+                    <div class="glass-card legal-box reveal">
+                        <p><strong>Last Updated: October 2023</strong></p>
+                        
+                        <h3>1. Property Information Disclaimer</h3>
+                        <p>All property descriptions, dimensions, layouts, and facilities mentioned on the Iris Realty website are for illustrative purposes only. They are subject to change without prior notice. Iris Realty accepts no liability for inaccuracies or omissions.</p>
+
+                        <h3>2. Pricing Subject to Change</h3>
+                        <p>Prices listed for properties are indicative and may vary based on market conditions, floor levels, availability, and specific configurations. Final pricing will be confirmed during the official booking process.</p>
+
+                        <h3>3. Booking & Payment Terms</h3>
+                        <p>A booking is only considered confirmed upon receipt of the stipulated initial booking amount and the execution of the necessary legal agreements. Payments must strictly follow the payment schedule outlined in the buyer's agreement.</p>
+
+                        <h3>4. Site Visit Policies</h3>
+                        <p>Site visits are strictly by appointment. Visitors must adhere to safety guidelines while on construction sites. Iris Realty is not responsible for any personal injury or loss of property during site visits.</p>
+
+                        <h3>5. Intellectual Property</h3>
+                        <p>All content, images, logos, and designs on this website are the intellectual property of Iris Realty. Unauthorized reproduction, distribution, or copying is strictly prohibited.</p>
+
+                        <h3>6. User Responsibilities & Lead Submission</h3>
+                        <p>By submitting your details via our contact forms, you confirm that the information provided is accurate. You are responsible for ensuring that your contact details are up to date.</p>
+
+                        <h3>7. Communication Consent</h3>
+                        <p>By accepting the Terms and Conditions of our platform, you expressly consent to our collection and use of your personal data, specifically your phone number, for the purpose of contacting you through phone calls, IVR and RCS messaging. These calls and messages may be made to remind you of any relevant updates, activities, or information regarding your account, as well as to inform you about new offers, promotions, or updates related to our platform and services. You acknowledge and agree that we may use your phone number to provide these communications and understand that this is a necessary part of your engagement with our platform. You may opt out of receiving such communications at any time by contacting our support team or following the opt-out instructions provided in any communication. However, opting out of promotional calls will not affect non-promotional or service-related communications that are essential to your use of the platform.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- PRIVACY POLICY PAGE -->
+        <section id="privacy" class="view-section">
+            <div class="page-header mini">
+                <div class="container">
+                    <h1>Privacy Policy</h1>
+                </div>
+            </div>
+            <section class="legal-content section-padding">
+                <div class="container">
+                    <div class="glass-card legal-box reveal">
+                        <p><strong>Effective Date: October 2023</strong></p>
+                        
+                        <h3>1. Information Collection</h3>
+                        <p>We collect personal information such as your name, email address, phone number, and preferences when you voluntarily submit inquiries, subscribe to newsletters, or register for property updates.</p>
+
+                        <h3>2. Cookie Usage</h3>
+                        <p>Our website uses cookies to enhance user experience, analyze site traffic, and serve targeted advertisements. You can manage your cookie preferences through your browser settings.</p>
+
+                        <h3>3. How Customer Data is Used</h3>
+                        <p>Data collected is used to provide requested real estate services, send property updates, process bookings, improve our website, and communicate promotional offers.</p>
+
+                        <h3>4. Third-Party Sharing Disclaimer</h3>
+                        <p>We do not sell or rent your personal information. We may share data with trusted third-party partners (such as legal advisors, CRM systems, and marketing agencies) strictly for fulfilling our services. All partners are bound by confidentiality agreements.</p>
+
+                        <h3>5. Data Protection</h3>
+                        <p>Iris Realty implements industry-standard security measures, including SSL encryption, to protect your data from unauthorized access, alteration, or disclosure.</p>
+
+                        <h3>6. Marketing and SMS Consent</h3>
+                        <p>By providing your contact details, you consent to receive marketing communications via Email and SMS. You have the right to opt-out at any time by contacting us or using the unsubscribe link.</p>
+
+                        <h3>7. User Rights</h3>
+                        <p>You have the right to request access to, correction of, or deletion of your personal data held by us.</p>
+
+                        <h3>8. Contact Information</h3>
+                        <p>For any privacy-related concerns, please contact our Data Protection Officer at privacy@irisrealty.com.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919146566155" class="whatsapp-btn" target="_blank" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo mb-3" data-target="home"><i class="fa-solid fa-gem"></i> Iris Realty</a>
+                <p>The standard of modern luxury real estate. Discover premium residential and commercial properties crafted for modern lifestyles.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#" data-target="home">Home</a></li>
+                    <li><a href="#" data-target="about">About Us</a></li>
+                    <li><a href="#" data-target="projects">Projects</a></li>
+                    <li><a href="#" data-target="services">Services</a></li>
+                    <li><a href="#" data-target="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="#" data-target="terms">Terms & Conditions</a></li>
+                    <li><a href="#" data-target="privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Details</h3>
+                <ul class="footer-contact">
+                    <li><i class="fa-solid fa-location-dot"></i> Manohar Nagar, Talegaon Dabhade, MH 410507</li>
+                    <li><i class="fa-solid fa-phone"></i> +91 9146566155</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@floretresidency.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; <span id="year"></span> Iris Realty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
